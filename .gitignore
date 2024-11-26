@@ -1,32 +1,12 @@
-*.class
-*.jar
-*.war
-*.ear
-.classpath
-.project
-.settings
-.gradle
-build
-*.iml
-*.ipr
-*.iws
-*.swp
-*.DS_Store
-.idea
-.vscode
-catalina.base_IS_UNDEFINED/
-keystore.jks
-bin/
-.lock
-fineract-provider/out/
-fineract-provider/config/swagger/config.json
-fineract-provider/config/swagger/fineract-input.yaml
-licenses
-**/.asciidoctor/images/*
-**/.asciidoctor/diagram/*
-**/images/diag-*.svg
+# IDE Files
+#-------------------------
+/nbproject/
+.idea/*
 
-fineract-provider/src/main/generated/
+## Sublime Text cache files
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
 
-**/out/
-gradleExp/
