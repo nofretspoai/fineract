@@ -16,7 +16,7 @@
 # under the License.
 #
 
-version: "3.8"
+# version: "3.8"
 
 services:
 
@@ -30,7 +30,8 @@ services:
       file: ./config/docker/compose/fineract.yml
       service: fineract
     ports:
-      - "8443:8443"
+      # - "8443:8443"
+      - "8180:8080"
     depends_on:
       db:
         condition: service_healthy

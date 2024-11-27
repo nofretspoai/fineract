@@ -30,3 +30,4 @@ fineract-provider/src/main/generated/
 
 **/out/
 gradleExp/
+fineract-provider/*.log
